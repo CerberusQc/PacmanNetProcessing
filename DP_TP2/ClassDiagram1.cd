@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DP_TP2.ÉlémentNiveau.ÉlémentJeuDessinable.Case">
+    <Position X="3" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAgAAAABAAAAAAAAABCAAAAAAAAUAAEAAA=</HashCode>
+      <FileName>ÉlémentNiveau\ÉlémentJeuDessinable\Case.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DP_TP2.ÉlémentNiveau.ÉlémentJeuDessinable.Corridor">
+    <Position X="1.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAABAAAAABAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ÉlémentNiveau\ÉlémentJeuDessinable\Corridor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ÉlémentNiveau.ÉlémentJeuDessinable.Mur">
+    <Position X="4" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAQAAAAAAEACAAAAAAAAAA=</HashCode>
+      <FileName>ÉlémentNiveau\ÉlémentJeuDessinable\Mur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ÉlémentNiveau.GénérateurNiveau">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEIAAAAAAAAhABAAAgAgAAEgAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ÉlémentNiveau\GénérateurNiveau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ÉlémentNiveau.GrilleJeu">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAAAAARAAAAAAABAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>ÉlémentNiveau\GrilleJeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.InterfaceGraphique.Informations">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAwAAAAAEAAACAACIAACAAAAAAAAQAIA=</HashCode>
+      <FileName>InterfaceGraphique\Informations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.InterfaceGraphique.Introduction">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAQAAAAQAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceGraphique\Introduction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.InterfaceGraphique.Jeu">
+    <Position X="2" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAAAAAAAAAAACAAEAEABAAAABAAAIA=</HashCode>
+      <FileName>InterfaceGraphique\Jeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.InterfaceGraphique.PartieFinie">
+    <Position X="4.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceGraphique\PartieFinie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.InterfaceGraphique.Pause">
+    <Position X="6.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceGraphique\Pause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ComportementFantômes.ComportementBlinky">
+    <Position X="14.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Logique\ComportementFantômes\ComportementBlinky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ComportementFantômes.ComportementClyde">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Logique\ComportementFantômes\ComportementClyde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ComportementFantômes.ComportementFantôme">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAIAIAgAIAACAIACAEAAAAAIAAAAAAAQIAAAA=</HashCode>
+      <FileName>Logique\ComportementFantômes\ComportementFantôme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DP_TP2.Logique.ComportementFantômes.ComportementInky">
+    <Position X="18.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQIAAAAAEAAAAAAAAAAgAAAAAQAAAAA=</HashCode>
+      <FileName>Logique\ComportementFantômes\ComportementInky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ComportementFantômes.ComportementPinky">
+    <Position X="12" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Logique\ComportementFantômes\ComportementPinky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatInformations">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Logique\ÉtatProgrammes\ÉtatInformations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatIntroduction">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Logique\ÉtatProgrammes\ÉtatIntroduction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatJeu">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Logique\ÉtatProgrammes\ÉtatJeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatPartieFinie">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Logique\ÉtatProgrammes\ÉtatPartieFinie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatPause">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Logique\ÉtatProgrammes\ÉtatPause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatProgramme">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DP_TP2.Logique.ÉtatProgrammes.ÉtatProgramme.TypeActionBouton" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Logique\ÉtatProgrammes\ÉtatProgramme.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIAAAAAAAAAIAAEAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Logique\ÉtatProgrammes\ÉtatProgramme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.IntelligenceArtificielle">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DP_TP2.Logique.IntelligenceArtificielle.TypeComportement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Logique\IntelligenceArtificielle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQBAAAAAAAAAAAgAAAgAAAAgAAAEABAAAAAAAAKA=</HashCode>
+      <FileName>Logique\IntelligenceArtificielle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.Partie">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pSEIBAoAACEABAhACAQAKAQAIgAAACGAwYCU0MTABAA=</HashCode>
+      <FileName>Logique\Partie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Logique.Programme" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIAAAAABAAAAAACAAAABAAAAAAABAA=</HashCode>
+      <FileName>Logique\Programme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DP_TP2.ObjetAnimables.ActeurAnimables.Fantôme">
+    <Position X="10.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIgAQGAAAQAAAAAABAAAAEAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjetAnimables\ActeurAnimables\Fantôme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetAnimables.ActeurAnimables.FruitAnimable">
+    <Position X="10.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ObjetAnimables\ActeurAnimables\FruitAnimable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetAnimables.ActeurAnimables.PacMan">
+    <Position X="10.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAIAAAAQAIAAEAAAAAA=</HashCode>
+      <FileName>ObjetAnimables\ActeurAnimables\Pacman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetAnimables.ObjetAnimable">
+    <Position X="8.5" Y="11.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DP_TP2.ObjetAnimables.ObjetAnimable.Déplacement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ObjetAnimables\ObjetAnimable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACECBAAAAABAEAAAAAAAAgFACQAIggIAAUAgICAA=</HashCode>
+      <FileName>ObjetAnimables\ObjetAnimable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.Acteur.ObjetFantôme">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DP_TP2.ObjetDessinables.Acteur.ObjetFantôme.CouleurFantôme" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ObjetDessinables\Acteur\ObjetFantôme.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAIACQABQAAAAAAAAAAAAAAAAEAAIABAAA=</HashCode>
+      <FileName>ObjetDessinables\Acteur\ObjetFantôme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.Acteur.ObjetPacMan">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ObjetDessinables\Acteur\ObjetPacMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.ObjetDessinable">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="DP_TP2.ObjetDessinables.ObjetDessinable.Orientation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ObjetDessinables\ObjetDessinable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAACQAAAAAAAUAAAAAA=</HashCode>
+      <FileName>ObjetDessinables\ObjetDessinable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.ObjetJeuValeur.Booster">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjetDessinables\ObjetJeuValeur\Booster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.ObjetJeuValeur.FabriqueFruit">
+    <Position X="21.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAQAgAAgAEAAEAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ObjetDessinables\ObjetJeuValeur\FabriqueFruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.ObjetJeuValeur.Fruit">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAEBAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjetDessinables\ObjetJeuValeur\Fruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.ObjetJeuValeur.ObjetJeu">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ObjetDessinables\ObjetJeuValeur\ObjetJeu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.ObjetJeuValeur.Point">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjetDessinables\ObjetJeuValeur\Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.UI.Bouton">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAgAFAAAQAAAAAAAAUAAAAAAAAQQAAQ=</HashCode>
+      <FileName>ObjetDessinables\UI\Bouton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ObjetDessinables.UI.Texte">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAABAAAAAAAAAAAAwAAAAAAAAQAAAA=</HashCode>
+      <FileName>ObjetDessinables\UI\Texte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.ProgrammeDessinables.ProgrammeDessinable">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAgIAAIAACIAAAAACAIggBAAAAgAAAAA=</HashCode>
+      <FileName>ProgrammeDessinables\ProgrammeDessinable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DP_TP2.Utilitaire.Constantes" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BmFkwlBMCMhggFSfBExCAHRgAdQoAZGBiSUZaqIOQYs=</HashCode>
+      <FileName>Utilitaire\Constantes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Utilitaire.Coordonnée">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAACAAAAAAIAAAAAAAAAAYAA=</HashCode>
+      <FileName>Utilitaire\Coordonnée.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP_TP2.Utilitaire.Dimension">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitaire\Dimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DP_TP2.Logique.ComportementFantômes.IComportemental">
+    <Position X="23" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logique\ComportementFantômes\IComportemental.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DP_TP2.ObjetAnimables.IAnimable">
+    <Position X="21.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAIAAUAAAAAA=</HashCode>
+      <FileName>ObjetAnimables\IAnimable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DP_TP2.ObjetDessinables.IDessinable">
+    <Position X="24.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAUAAAAAA=</HashCode>
+      <FileName>ObjetDessinables\IDessinable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DP_TP2.ObjetDessinables.ObjetJeuValeur.IPointable">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ObjetDessinables\ObjetJeuValeur\IPointable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DP_TP2.ProgrammeDessinables.IProgrammeDessinable">
+    <Position X="24.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIAAAAAAAAAAAACAAAABAAAAAAAAAA=</HashCode>
+      <FileName>ProgrammeDessinables\IProgrammeDessinable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82268D56-51F0-4D7D-A99E-F100C6F3D31D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DP_TP2</RootNamespace>
+    <AssemblyName>DP_TP2</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NetProcessing">
+      <HintPath>.\NetProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InterfaceGraphique\Informations.cs" />
+    <Compile Include="InterfaceGraphique\Jeu.cs" />
+    <Compile Include="InterfaceGraphique\PartieFinie.cs" />
+    <Compile Include="InterfaceGraphique\Pause.cs" />
+    <Compile Include="Logique\ComportementFantômes\ComportementBlinky.cs" />
+    <Compile Include="Logique\ComportementFantômes\ComportementClyde.cs" />
+    <Compile Include="Logique\ComportementFantômes\ComportementFantôme.cs" />
+    <Compile Include="Logique\ComportementFantômes\ComportementInky.cs" />
+    <Compile Include="Logique\ComportementFantômes\ComportementPinky.cs" />
+    <Compile Include="Logique\ComportementFantômes\IComportemental.cs" />
+    <Compile Include="Logique\IntelligenceArtificielle.cs" />
+    <Compile Include="Logique\ÉtatProgrammes\ÉtatInformations.cs" />
+    <Compile Include="Logique\ÉtatProgrammes\ÉtatIntroduction.cs" />
+    <Compile Include="Logique\ÉtatProgrammes\ÉtatProgramme.cs" />
+    <Compile Include="Logique\ÉtatProgrammes\ÉtatJeu.cs" />
+    <Compile Include="Logique\ÉtatProgrammes\ÉtatPartieFinie.cs" />
+    <Compile Include="Logique\ÉtatProgrammes\ÉtatPause.cs" />
+    <Compile Include="Logique\Programme.cs" />
+    <Compile Include="Logique\Partie.cs" />
+    <Compile Include="ObjetAnimables\ActeurAnimables\Fantôme.cs" />
+    <Compile Include="ObjetAnimables\ActeurAnimables\FruitAnimable.cs" />
+    <Compile Include="ObjetAnimables\IAnimable.cs" />
+    <Compile Include="ObjetAnimables\ObjetAnimable.cs" />
+    <Compile Include="ObjetAnimables\ActeurAnimables\Pacman.cs" />
+    <Compile Include="ObjetDessinables\Acteur\ObjetFantôme.cs" />
+    <Compile Include="ObjetDessinables\Acteur\ObjetPacMan.cs" />
+    <Compile Include="ObjetDessinables\ObjetJeuValeur\FabriqueFruit.cs" />
+    <Compile Include="ObjetDessinables\UI\Bouton.cs" />
+    <Compile Include="ObjetDessinables\ObjetJeuValeur\Booster.cs" />
+    <Compile Include="ObjetDessinables\ObjetJeuValeur\Fruit.cs" />
+    <Compile Include="ObjetDessinables\IDessinable.cs" />
+    <Compile Include="ObjetDessinables\ObjetDessinable.cs" />
+    <Compile Include="ObjetDessinables\ObjetJeuValeur\IPointable.cs" />
+    <Compile Include="ObjetDessinables\ObjetJeuValeur\ObjetJeu.cs" />
+    <Compile Include="ObjetDessinables\ObjetJeuValeur\Point.cs" />
+    <Compile Include="ObjetDessinables\UI\Texte.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="InterfaceGraphique\Introduction.cs" />
+    <Compile Include="ProgrammeDessinables\IProgrammeDessinable.cs" />
+    <Compile Include="ProgrammeDessinables\ProgrammeDessinable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitaire\Constantes.cs" />
+    <Compile Include="Utilitaire\Coordonnée.cs" />
+    <Compile Include="Utilitaire\Dimension.cs" />
+    <Compile Include="ÉlémentNiveau\GénérateurNiveau.cs" />
+    <Compile Include="ÉlémentNiveau\ÉlémentJeuDessinable\Case.cs" />
+    <Compile Include="ÉlémentNiveau\GrilleJeu.cs" />
+    <Compile Include="ÉlémentNiveau\ÉlémentJeuDessinable\Corridor.cs" />
+    <Compile Include="ÉlémentNiveau\ÉlémentJeuDessinable\Mur.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Ressources\PAC-FONT.TTF" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Ressources\cerise.png" />
+    <Content Include="Ressources\cle.png" />
+    <Content Include="Ressources\cloche.png" />
+    <Content Include="Ressources\fraise.png" />
+    <Content Include="Ressources\galboss.png" />
+    <Content Include="Ressources\melon.png" />
+    <Content Include="Ressources\orange.png" />
+    <Content Include="Ressources\pomme.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
